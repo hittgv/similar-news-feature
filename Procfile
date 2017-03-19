@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -DapiKey=$MS_API_KEY -jar build/libs/similar-news-feature-0.1.0.jar --server.port=$PORT
