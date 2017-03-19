@@ -78,7 +78,7 @@ class BingNewsResponse {
 
 @Service
 open class SimilarNewsService {
-    val QUERY_URL :String = "https://api.cognitive.microsoft.com/bing/v5.0/news/search?q="
+    val QUERY_URL :String = "https://api.cognitive.microsoft.com/bing/v5.0/news/search?count=1000&q="
     val pattern: Pattern = Pattern.compile("&r=(.*)&")
 
     val apiKey: String = System.getProperty("apiKey")
