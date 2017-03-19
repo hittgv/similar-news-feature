@@ -1,3 +1,10 @@
 language: java
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: CzgXUGk3t1bN/yQv6l59gNm61GOLzGsjs5eZyjd/2k6Bgxnj8D1ji7LmgS+4VIpPS7geYvNoM/XvCcyCBDJFgq9gQjheGe2095ckM1YMc+qPr8ko9mLT46TgFcDBrGnvSeUUmXoTen2y6w9+TU+EDBYe1w5qtthguogmb03loKdyrycxV+/dMZWxxLKYp3wM5QK/IFnUu1w/rpbrR9sO2TCBD5EHB2WFB9732G7qDStqLcpwfcIuDioo+Fc8fLVfyAf0jvbu76f11wq4xUQ3AXJDSs1IlbbnqIHj5+Iy112xJhLHolAzVRUrCNJUtqzT5kpUvnAwefFuc/4PbFcOGTUtFll6YJ+DnyW1W1MOA0dDvuCgnuPsSiq7ZKN/NOBmr6znDpbPzB0yL81LqoJB8AYFS2xzQfOVIQWoetgTb96CUNwAs4pOKVHCV3CplR+m4ma4J3quI+vU3xi866kE3J7g1ewLIq+pjFt+R3WFELMiYkm429jjG9qowQ9JOyHn0VqYo2vbrqBCqM6meUVxBYrydhTYPJwQTveu/1098Cxb/xtVvMixIWHyz8nBYkL8Je1zZe+u9ira4rmZZd5C+zKs8ruiCkkSAu51PcHwPErKSWozpCp4nw8tBfRqjaVFN7hpDoWxf0OUJdraEtRVl0Cp74mbutEN+Qkei7E+8jw=
+  app: similarnewsly
+  on:
+    repo: hittgv/similar-news-feature
